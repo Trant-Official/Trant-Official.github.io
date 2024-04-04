@@ -2,12 +2,13 @@
 <html>
   <head>
     <script>
-      function redirect(location) {
-        location.replace("https://" + location)
+      function redirect(url) {
+        window.location.replace("https://" + url);
       }
     </script>
   </head>
   <body onload='redirect("github.com/Trant-Official/random-game-lol")'>
-    <p onclick='redirect("github.com/Trant-Official/random-game-lol")'>click me if the redirect didnt work</p>
+    <p onclick='redirect("github.com/Trant-Official/random-game-lol")'>click me if the redirect didn't work</p>
   </body>
 </html>
+
