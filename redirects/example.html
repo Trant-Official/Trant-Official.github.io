@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function redirect(location) {
+        location.replace("https://" + location)
+      }
+    </script>
+  </head>
+  <body onload='redirect("example.com")'>
+    <p onclick='redirect("example.com")'>click me if the redirect didnt work</p>
+  </body>
+</html>
